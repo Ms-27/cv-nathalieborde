@@ -3,31 +3,44 @@ body {
     font-size: 1em;
     display: flex;
     flex-direction: column;
-    border: 1px dotted blue;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: blue;
 }
 
 h1 {
 	text-align: center;
 	margin: auto;
-	font-size: 2.8em;
+	font-size: 2.5em;
 }
 
 h2 {
-	color: purple;
+	color: grey;
 }
 
 header {
 	height: 22%;
-	background-color: pink;
-	border: 1px solid green;
+}
+
+.infos {
+	list-style-type: none;
+	font-size: 0.8em;
+	padding-left: 20px;
 }
 
 .imageFlottante {
 	float: right;
 	margin-top: 2%;
-	margin-right: 3%;
+	margin-right: 8%;
 	border: 1px solid silver;
-	box-shadow: 4px 4px 4px grey;
+	box-shadow: 3px 3px 3px grey;
 }
 
 section {
@@ -37,17 +50,8 @@ section {
 }
 
 article {
-	border: 1px solid brown;
-	width: 65%;
-}
-
-.experience p {
-	margin-top: -1.5%;
-}
-
-aside {
-	border: 1px solid brown;
-	width: 35%;
+	width: 75%;
+	padding: 10px;
 }
 
 .experience, .stages, .formation {
@@ -55,25 +59,36 @@ aside {
 	flex-direction: column;
 	padding: 1%;
 	width: 100%;
+	margin-bottom: 1%;
 }
 
-.blocCompetences {
-	list-style: none;
-	width: 202px;
-	margin-left: 26px;
-	padding: 3px;
-	border: 1px solid;
-	border-radius: 10px;
-	background-color: white;
+.experience p, .stages p {
+	margin-top: -1.6%;
 }
 
-.competences {
-	margin: auto;
-	border-radius: 10px;
-	border-color: 1px solid red;
+.experience li {
+	margin-bottom: 3%;
 }
-.competences ul {
+
+aside {
+	width: 25%;
+}
+
+.competences, .divers {
+	margin: 35% 8% 8% 8%;
+	border-radius: 35px;
+	border: 1px solid red;
+	padding: 6px 12px;
+	box-shadow: 3px 3px 2px silver;
+}
+
+.competences ul, .divers ul {
 	list-style-type: none;
+	padding-left: 25px;
+}
+
+.ssligne {
+	text-decoration: underline;
 }
 
 footer {
@@ -95,6 +110,10 @@ footer a, footer a:hover, footer a:visited {
 
 	section {
 		flex-direction: column;
+	}
+
+	aside {
+		display: flex;
 	}
 
 	.experience {
