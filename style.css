@@ -1,75 +1,51 @@
 body {
-    color: white;
+    font-family: Verdana, Arial, serif;
+    font-size: 1em;
     display: flex;
+    flex-direction: column;
+    border: 1px dotted blue;
 }
 
-.lisere {
-	border-radius: 10px;
-	background-image: url(./img/lisere.jpg);
-	width: 15%;
-	height: 500px;
-}
-
-.principale {
-	padding: 0% 3%;
-}
-
-header {
-	height: 22%;
-	margin-top: 1.5%
-}
-
-.fonction {
-	margin-top: 2.5%;
-}
-
-section {
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
-	margin-top: 5%;
-}
-
-.experience {
-	display: flex;
-	flex-direction: column;
-	padding: 1%;
-	width: 30%;
-}
-
-.competences {
-	display: flex;
-	flex-direction: column;
-	padding: 1%;
-	width: 30%;
-}
-
-.formation {
-	display: flex;
-	flex-direction: column;
-	padding: 1%;
-	width: 30%;
-}
-
-h1, p {
+h1 {
 	text-align: center;
 	margin: auto;
-}
-
-h1
-{
-    font-family: Verdana, Arial, serif;
-    font-size: 2.8em;
+	font-size: 2.8em;
 }
 
 h2 {
 	color: purple;
 }
 
+header {
+	height: 22%;
+	background-color: pink;
+	border: 1px solid green;
+}
+
 .imageFlottante {
 	float: right;
 	margin-right: 3%;
+	border: 1px solid silver;
 	box-shadow: 4px 4px 4px grey;
+}
+
+section {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 1%;
+}
+
+aside {
+	border: 1px solid brown;
+	height: 20%;
+}
+
+.experience, .competences, .formation {
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	width: 100%;
 }
 
 .blocCompetences {
@@ -99,4 +75,3 @@ h2 {
 		width:  100%;
 	}
 }
-
