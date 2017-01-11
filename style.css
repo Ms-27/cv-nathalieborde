@@ -1,10 +1,5 @@
-@font-face { 
-    font-family: 'SourceSansPro';
-    src: url('./source-sans-pro/SourceSansPro-Regular.otf');      
-}
-
 body {
-    background-image: url("./img/fond.png");
+    color: white;
     display: flex;
 }
 
@@ -63,7 +58,7 @@ h1, p {
 
 h1
 {
-    font-family: 'SourceSansPro', Verdana, Arial, serif;
+    font-family: Verdana, Arial, serif;
     font-size: 2.8em;
 }
 
