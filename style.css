@@ -1,0 +1,107 @@
+@font-face { 
+    font-family: 'SourceSansPro';
+    src: url('./source-sans-pro/SourceSansPro-Regular.otf');      
+}
+
+body {
+    background-image: url("./img/fond.png");
+    display: flex;
+}
+
+.lisere {
+	border-radius: 10px;
+	background-image: url(./img/lisere.jpg);
+	width: 15%;
+	height: 500px;
+}
+
+.principale {
+	padding: 0% 3%;
+}
+
+header {
+	height: 22%;
+	margin-top: 1.5%
+}
+
+.fonction {
+	margin-top: 2.5%;
+}
+
+section {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 5%;
+}
+
+.experience {
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	width: 30%;
+}
+
+.competences {
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	width: 30%;
+}
+
+.formation {
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	width: 30%;
+}
+
+h1, p {
+	text-align: center;
+	margin: auto;
+}
+
+h1
+{
+    font-family: 'SourceSansPro', Verdana, Arial, serif;
+    font-size: 2.8em;
+}
+
+h2 {
+	color: purple;
+}
+
+.imageFlottante {
+	float: right;
+	margin-right: 3%;
+	box-shadow: 4px 4px 4px grey;
+}
+
+.blocCompetences {
+	list-style: none;
+	width: 166px;
+	margin-left: 26px;
+	padding: 3px;
+	border: 1px solid;
+	border-radius: 10px;
+	background-color: white;
+}
+
+@media screen and (max-width: 1024px) {
+	.lisere {
+		display: none;
+	}
+
+	section {
+		flex-direction: column;
+	}
+
+	.experience {
+		width:  100%;
+	}
+
+	.formation{
+		width:  100%;
+	}
+}
+
