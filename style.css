@@ -112,15 +112,12 @@ footer a, footer a:hover, footer a:visited {
 		flex-direction: column;
 	}
 
-	aside {
-		display: flex;
-	}
-
-	.experience {
+	article {
 		width:  100%;
 	}
 
-	.formation{
+	aside {
+		display: flex;
 		width:  100%;
 	}
 }
