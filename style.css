@@ -27,6 +27,9 @@ h1 {
 h2 {
 	color: #20497d;
 	font-weight: normal;
+	background-image: url("img/div.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
 }
 
 header {
@@ -63,6 +66,7 @@ article {
 }
 
 .ligne {
+	display: none;
 	background-image: url(img/div.png);
 	height: 2px;
 	margin-top: 0px;
