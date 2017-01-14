@@ -1,13 +1,13 @@
 body {
     font-family: Verdana, Arial, serif;
-    font-size: 1em;
+    font-size: 0.95em;
     display: flex;
     flex-direction: column;
 }
 
 a, a:visited {
 	text-decoration: none;
-	color: grey;
+	color: silver;
 }
 
 a:hover {
@@ -20,7 +20,7 @@ h1 {
 	margin: auto;
 	font-size: 4em;
 	color: white;
-	text-shadow: 2px 2px 2px silver;
+	text-shadow: 2px 2px 2px #20497d;
 	padding-left: 16px;
 }
 
@@ -33,9 +33,13 @@ h2 {
 }
 
 header {
+	width: 98%;
+	margin: auto;
 	height: 22%;
 	margin-top: 2%;
-	background-color: #20497d;
+	/*background-color: #20497d;*/
+	background-color: rgba(32, 73, 125, 0.8);
+	border: 2px solid #20497d;
 }
 
 .infos {
@@ -49,9 +53,9 @@ header {
 .imageFlottante {
 	float: right;
 	margin-top: 1%;
-	margin-right: 8%;
-	border: 1px solid silver;
-	box-shadow: 3px 3px 3px grey;
+	margin-right: 9%;
+	border: 1px solid #20497d;
+	/*box-shadow: 3px 3px 3px grey;*/
 }
 
 section {
@@ -61,7 +65,7 @@ section {
 }
 
 article {
-	width: 75%;
+	width: 70%;
 	padding: 10px;
 }
 
@@ -81,9 +85,19 @@ article {
 	margin-bottom: 1%;
 }
 
+.stages h2 {
+	margin-bottom: -1.4%;
+}
+
+.formation h2 {
+	margin-bottom: -1%;
+}
+
 .experience p, .stages p {
 	margin-top: -1.6%;
 }
+
+
 
 .experience li {
 	margin-bottom: 3%;
@@ -133,13 +147,20 @@ footer a, footer a:hover, footer a:visited {
 	}
 
 	article {
-		width:  100%;
+		width:  95%;
+		text-align: left;
 	}
 
 	aside {
 		display: flex;
-		width:  100%;
+		width:  95%;
+		margin-top: -32%;
 	}
+
+	.competences ul, .divers ul {
+		width: 100%;
+	}
+
 }
 
 /*@media screen and (max-width: 480px) {
