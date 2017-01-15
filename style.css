@@ -37,7 +37,6 @@ header {
 	margin: auto;
 	height: 22%;
 	margin-top: 2%;
-	/*background-color: #20497d;*/
 	background-color: rgba(32, 73, 125, 0.8);
 	border: 2px solid #20497d;
 }
@@ -55,7 +54,6 @@ header {
 	margin-top: 1%;
 	margin-right: 9%;
 	border: 1px solid #20497d;
-	/*box-shadow: 3px 3px 3px grey;*/
 }
 
 section {
@@ -108,10 +106,11 @@ aside {
 }
 
 .competences, .divers {
+	color: #20497d;
 	margin: 35% 8% 8% 8%;
 	border-radius: 35px;
 	border: 2px solid #20497d;
-	background-color: rgba(32, 73, 125, 0.2	);
+	background-color: rgba(32, 73, 125, 0.2);
 	padding: 6px 12px;
 	box-shadow: 3px 3px 2px silver;
 }
@@ -138,10 +137,6 @@ footer a, footer a:hover, footer a:visited {
 }
 
 @media screen and (max-width: 1024px) {
-	.lisere {
-		display: none;
-	}
-
 	section {
 		flex-direction: column;
 	}
@@ -154,7 +149,19 @@ footer a, footer a:hover, footer a:visited {
 	aside {
 		display: flex;
 		width:  95%;
-		margin-top: -32%;
+	}
+
+	.competences, .divers {
+		margin: 3% 2% 2% 2%;
+		padding: 2% 6% 2% 2%;
+	}
+
+	.competences {
+		width: 41%;
+	}
+
+	.divers {
+		width: 51%;
 	}
 
 	.competences ul, .divers ul {
