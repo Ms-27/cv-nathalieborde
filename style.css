@@ -113,6 +113,7 @@ aside {
 	background-color: rgba(32, 73, 125, 0.2);
 	padding: 6px 12px;
 	box-shadow: 3px 3px 2px silver;
+	word-wrap: break-word;
 }
 
 .competences ul, .divers ul {
@@ -122,6 +123,10 @@ aside {
 
 .ssligne {
 	text-decoration: underline;
+}
+
+.empty {
+	display: none;
 }
 
 footer {
@@ -149,24 +154,35 @@ footer a, footer a:hover, footer a:visited {
 	aside {
 		display: flex;
 		width:  95%;
+		height: auto;
+		border: 1px dotted red;
 	}
 
 	.competences, .divers {
-		margin: 3% 2% 2% 2%;
+		margin: 2% 2% 2% 2%;
 		padding: 2% 6% 2% 2%;
+		height: auto;
 	}
 
 	.competences {
+		float: left;
 		width: 41%;
 	}
 
 	.divers {
+		float: right;
 		width: 51%;
 	}
 
-	.competences ul, .divers ul {
-		width: 100%;
+	.empty {
+		display: block;
+		width: 95%;
+		background-color: pink;
 	}
+
+	/*.competences ul, .divers ul {
+		width: 100%;
+	}*/
 
 }
 
