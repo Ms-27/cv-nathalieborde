@@ -58,6 +58,7 @@ header {
 
 section {
 	display: flex;
+	margin: auto;
 	justify-content: space-around;
 	width: 100%;
 }
@@ -152,25 +153,30 @@ footer a, footer a:hover, footer a:visited {
 	}
 
 	aside {
-		display: flex;
+		display: flex;`
+		margin: auto;
 		width:  95%;
-		height: auto;
+		/*height: auto;*/
 		border: 1px dotted red;
 	}
 
 	.competences, .divers {
+		display: inline-block;
 		margin: 2% 2% 2% 2%;
-		padding: 2% 6% 2% 2%;
-		height: auto;
+		padding: 0% 2% 2% 2%;
+		/*height: auto;*/
 	}
 
 	.competences {
 		float: left;
+		position: relative;
 		width: 41%;
+		height: auto;
 	}
 
 	.divers {
 		float: right;
+		position: relative;
 		width: 51%;
 	}
 
