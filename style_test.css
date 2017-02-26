@@ -1,0 +1,43 @@
+header {
+	width: 98%;
+	margin: auto;
+	height: 22%;
+	margin-top: 2%;
+	background-color: rgba(32, 73, 125, 0.8);
+	border: 2px solid #20497d;
+}
+
+section {
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	width: 100%;
+	border: 1px solid blue;
+}
+
+article {
+	/*width: 70%;
+	padding: 10px;*/
+	border: 1px dashed green;
+}
+
+.div01 {
+
+}
+
+aside {
+	border: 1px dashed yellow;
+}
+
+footer {
+	font-family: Verdana;
+	font-size: 0.7em;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 1px grey;
+}
+
+footer a, footer a:hover, footer a:visited {
+	text-decoration: none;
+	color: white;
+}
