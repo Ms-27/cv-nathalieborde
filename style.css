@@ -1,8 +1,8 @@
 body {
     font-family: Verdana, Arial, serif;
     font-size: 0.95em;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
 }
 
 a, a:visited {
@@ -36,7 +36,7 @@ header {
 	width: 98%;
 	margin: auto;
 	height: 22%;
-	margin-top: 2%;
+	/*margin-top: 1%;*/
 	background-color: rgba(32, 73, 125, 0.8);
 	border: 2px solid #20497d;
 }
@@ -126,10 +126,6 @@ aside {
 	text-decoration: underline;
 }
 
-.empty {
-	display: none;
-}
-
 footer {
 	font-size: 0.7em;
 	color: white;
@@ -153,11 +149,11 @@ footer a, footer a:hover, footer a:visited {
 	}
 
 	aside {
-		display: flex;`
+		display: flex;
 		margin: auto;
-		width:  95%;
+		width:  100%;
 		/*height: auto;*/
-		border: 1px dotted red;
+		/*border: 1px dotted red;*/
 	}
 
 	.competences, .divers {
@@ -171,7 +167,7 @@ footer a, footer a:hover, footer a:visited {
 		float: left;
 		position: relative;
 		width: 41%;
-		height: auto;
+		/*height: auto;*/
 	}
 
 	.divers {
@@ -194,14 +190,14 @@ footer a, footer a:hover, footer a:visited {
 
 /*@media screen and (max-width: 480px) {
 	* {
-		font-size: 0.9em;
+		font-size: 0.7em;
 	}
 
 	h1 {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 
 	h2 {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 }*/
