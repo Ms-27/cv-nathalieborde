@@ -1,0 +1,203 @@
+body {
+    font-family: Verdana, Arial, serif;
+    font-size: 0.95em;
+    /*display: flex;
+    flex-direction: column;*/
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: silver;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+h1 {
+	/*text-align: center;*/
+	margin: auto;
+	font-size: 4em;
+	color: white;
+	text-shadow: 2px 2px 2px #20497d;
+	padding-left: 16px;
+}
+
+h2 {
+	color: #20497d;
+	font-weight: normal;
+	background-image: url("img/div.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+header {
+	width: 98%;
+	margin: auto;
+	height: 22%;
+	/*margin-top: 1%;*/
+	background-color: rgba(32, 73, 125, 0.8);
+	border: 2px solid #20497d;
+}
+
+.infos {
+	list-style-type: none;
+	color: white;
+	font-size: 1em;
+	margin-top: 1%;
+	padding-left: 20px;
+}
+
+.imageFlottante {
+	float: right;
+	margin-top: 1%;
+	margin-right: 9%;
+	border: 1px solid #20497d;
+}
+
+section {
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	width: 100%;
+}
+
+article {
+	width: 70%;
+	padding: 10px;
+}
+
+.ligne {
+	display: none;
+	background-image: url(img/div.png);
+	height: 2px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+.experience, .stages, .formation {
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	width: 100%;
+	margin-bottom: 1%;
+}
+
+.stages h2 {
+	margin-bottom: -1.4%;
+}
+
+.formation h2 {
+	margin-bottom: -1%;
+}
+
+.experience p, .stages p {
+	margin-top: -1.6%;
+}
+
+
+
+.experience li {
+	margin-bottom: 3%;
+}
+
+aside {
+	width: 25%;
+}
+
+.competences, .divers {
+	color: #20497d;
+	margin: 35% 8% 8% 8%;
+	border-radius: 35px;
+	border: 2px solid #20497d;
+	background-color: rgba(32, 73, 125, 0.2);
+	padding: 6px 12px;
+	box-shadow: 3px 3px 2px silver;
+	word-wrap: break-word;
+}
+
+.competences ul, .divers ul {
+	list-style-type: none;
+	padding-left: 25px;
+}
+
+.ssligne {
+	text-decoration: underline;
+}
+
+footer {
+	font-size: 0.7em;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 1px grey;
+}
+
+footer a, footer a:hover, footer a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+@media screen and (max-width: 1024px) {
+	section {
+		flex-direction: column;
+	}
+
+	article {
+		width:  95%;
+		text-align: left;
+	}
+
+	aside {
+		display: flex;
+		margin: auto;
+		width:  100%;
+		/*height: auto;*/
+		/*border: 1px dotted red;*/
+	}
+
+	.competences, .divers {
+		display: inline-block;
+		margin: 2% 2% 2% 2%;
+		padding: 0% 2% 2% 2%;
+		/*height: auto;*/
+	}
+
+	.competences {
+		float: left;
+		position: relative;
+		width: 41%;
+		/*height: auto;*/
+	}
+
+	.divers {
+		float: right;
+		position: relative;
+		width: 51%;
+	}
+
+	.empty {
+		display: block;
+		width: 95%;
+		background-color: pink;
+	}
+
+	/*.competences ul, .divers ul {
+		width: 100%;
+	}*/
+
+}
+
+/*@media screen and (max-width: 480px) {
+	* {
+		font-size: 0.7em;
+	}
+
+	h1 {
+		font-size: 1em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+}*/
